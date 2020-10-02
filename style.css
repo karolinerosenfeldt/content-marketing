@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-#header-billede{
+.header1{
+/*    height: 450px;*/
     background-color: #abae9e;
+}
+
+.header2{
+    height: 280px;
+    background-color: #ece8e3;
+}
+
+.header-img{
+    position: absolute;
+    z-index: 1;
+}
+
+.header-txt{
+    font-family: cormorant;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    position: absolute;
+    z-index: 1;
 }
