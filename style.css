@@ -99,6 +99,17 @@ transform: rotate(-135deg);
 
 .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.55);
+    border-color: transparent;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
     border-color: none;
+    box-shadow: none;
+}
+
+.navbar-nav {
+    background-color: #F2D4C9;
+    padding: 5px;
 }
 
