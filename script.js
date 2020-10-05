@@ -1,17 +1,21 @@
-$(document).ready(function () {
+//$(document).ready(function () {
+window.addEventListener("DOMContentLoaded", init);
+function init(){
 
-  $('.first-button').on('click', function () {
 
-    $('.animated-icon1').toggleClass('open');
+document.querySelector('.first-button').addEventListener('click', function () {
+
+    document.querySelector('.animated-icon1').classList.toggle('open');
   });
-  $('.second-button').on('click', function () {
+  document.querySelector('.second-button').addEventListener('click', function () {
 
-    $('.animated-icon2').toggleClass('open');
+    document.querySelector('.animated-icon2').classList.toggle('open');
   });
-  $('.third-button').on('click', function () {
+  document.querySelector('.third-button').addEventListener('click', function () {
 
-    $('.animated-icon3').toggleClass('open');
+    document.querySelector('.animated-icon3').classList.toggle('open');
   });
-});
+}
+//});
 
-console.log(Hej)
+console.log("Hej")

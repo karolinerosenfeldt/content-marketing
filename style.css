@@ -110,6 +110,6 @@ transform: rotate(-135deg);
 
 .navbar-nav {
     background-color: #F2D4C9;
-    padding: 5px;
+    padding: 5px 0 5px 5px;
 }
 
