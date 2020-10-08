@@ -10,11 +10,6 @@
     background-color: #ece8e3;
 }
 
-.header-img{
-    position: absolute;
-    z-index: 1;
-}
-
 .header-txt{
     font-family: cormorant;
     font-weight: bold;
@@ -131,4 +126,8 @@ transform: rotate(-135deg);
     border-radius: 50%;
     height: 400px;
     width: 400px;
+}
+
+.img-fluid {
+    max-width: 150%;
 }
