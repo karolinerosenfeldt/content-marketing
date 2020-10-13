@@ -151,13 +151,15 @@ h3 {
 }
 
 .text-groen-bg{
-    max-width: 500px;
+/*    max-width: 500px;*/
 }
 
 .tre-firkanter {
     background-color: #ECE8E3;
+/*
     height: 300px;
     width: 200px;
+*/
 }
 
 .firkanter-overlay {
@@ -167,17 +169,17 @@ h3 {
 .groen-illu {
     z-index: 2;
 /*    height: 300px;*/
-    width: 120%
+/*    width: 120%*/
 }
 
 .groen-glas{
 /*    max-height: 350px;*/
-       width: 120%
+/*       width: 120%*/
 }
 
 .beige-bg {
     background-color: #ECE8E3;
-    height: 500px;
+/*    height: 500px;*/
 }
 
 ol{
@@ -187,5 +189,5 @@ ol{
 }
 
 figure {
-    width: 200%
+/*    width: 200%*/
 }
