@@ -1,23 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 .hero {
-    /*  background-color: #abae9e;*/
+    background-color:#4F5C49;
+    opacity: 60%;
     background-size: cover;
-    background-position: 20%;
+    background-position: 50%;
     background-image: url(img/vitaminpille_mockup3.jpg);
     background-blend-mode: overlay;
     font-family: cormorant, sans-serif;
     font-weight: bold;
-
-}
-
-.header-txt {
-    font-family: cormorant;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 7px;
-    position: absolute;
-    z-index: 1;
 }
 
 h2 {
