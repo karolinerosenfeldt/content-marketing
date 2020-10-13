@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/*.header1 {*/
-/*    height: 400px;*/
-/*    background-color: #abae9e;*/
-}
+.hero {
+    /*  background-color: #abae9e;*/
+    background-size: cover;
+    background-position: 20%;
+    background-image: url(img/vitaminpille_mockup3.jpg);
+    background-blend-mode: overlay;
+    font-family: cormorant, sans-serif;
+    font-weight: bold;
 
-/*.header2 {*/
-/*    height: 200px;*/
-/*    background-color: #ece8e3;*/
 }
-
 
 .header-txt {
     font-family: cormorant;
@@ -35,17 +35,16 @@ h3 {
     letter-spacing: 7px;
 }
 
-.btn{
+.btn {
     height: 30px;
     width: 150px;
     background-color: #4F5C49;
-    color:#ece8e3;
+    color: #ece8e3;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
     border-radius: 0;
     padding: 0;
-
 }
 
 
@@ -164,7 +163,7 @@ h3 {
     color: #ECE8E3;
 }
 
-.text-groen-bg{
+.text-groen-bg {
     max-width: 500px;
 }
 
@@ -180,13 +179,13 @@ h3 {
 
 .groen-illu {
     z-index: 2;
-/*    height: 300px;*/
+    /*    height: 300px;*/
     width: 120%
 }
 
-.groen-glas{
-/*    max-height: 350px;*/
-       width: 120%
+.groen-glas {
+    /*    max-height: 350px;*/
+    width: 120%
 }
 
 .beige-bg {
@@ -194,7 +193,7 @@ h3 {
     height: 500px;
 }
 
-ol{
+ol {
     font-family: cormorant;
     font-weight: medium;
     font-size: 1.2em;
