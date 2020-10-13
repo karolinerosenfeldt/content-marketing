@@ -34,6 +34,10 @@ h3 {
     letter-spacing: 7px;
 }
 
+p {
+    font-family: cormorant;
+}
+
 
 /* Icon 1 */
 
@@ -160,7 +164,7 @@ h3 {
 }
 
 .tre-firkanter img {
- height: 400px;
+ height: 300px;
  object-fit: contain;
 }
 
@@ -170,13 +174,6 @@ h3 {
 
 .groen-illu {
     z-index: 2;
-/*    height: 300px;*/
-/*    width: 120%*/
-}
-
-.groen-glas{
-/*    max-height: 350px;*/
-/*       width: 120%*/
 }
 
 .beige-bg {
@@ -190,6 +187,7 @@ ol{
     font-size: 1.2em;
 }
 
-figure {
-/*    width: 200%*/
+.centrer-prikker {
+    list-style-position: inside;
 }
+
