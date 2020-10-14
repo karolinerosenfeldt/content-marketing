@@ -9,6 +9,7 @@
     background-blend-mode: overlay;
     font-family: cormorant, sans-serif;
     font-weight: bold;
+    z-index: 0;
 }
 
 h2 {
@@ -135,7 +136,7 @@ p {
 .navbar-nav {
     background-color: #F2D4C9;
     padding: 5px 0 5px 5px;
-    z-index: 2;
+    z-index: 5;
 }
 
 
