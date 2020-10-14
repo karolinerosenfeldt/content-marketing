@@ -161,7 +161,6 @@ p {
 
 .text-groen-bg {
     max-width: 500px;
-
 }
 
 .tre-firkanter > figure {
@@ -182,17 +181,16 @@ p {
     z-index: 2;
 
     /*    height: 300px;*/
+
     width: 120%
 }
 
 .groen-glas {
-    /*    max-height: 350px;*/
     width: 120%
 }
 
 .beige-bg {
     background-color: #ECE8E3;
-/*    height: 500px;*/
 }
 
 ol {
