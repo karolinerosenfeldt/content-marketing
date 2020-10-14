@@ -175,7 +175,7 @@ p {
 }
 
 .tre-firkanter img {
- height: 300px;
+/* height: 300px;*/
  object-fit: contain;
 }
 
@@ -189,7 +189,7 @@ p {
 }
 
 .groen-glas {
-    width: 120%
+    width: 140%
 }
 
 .beige-bg {
