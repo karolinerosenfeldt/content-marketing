@@ -26,13 +26,13 @@ h3 {
     letter-spacing: 7px;
 }
 
-<<<<<<< HEAD
 p {
     font-family: cormorant;
-=======
+}
+
 .btn {
     height: 30px;
-    width: 150px;
+    width: 200px;
     background-color: #4F5C49;
     color: #ece8e3;
     text-align: center;
@@ -40,7 +40,14 @@ p {
     margin-bottom: auto;
     border-radius: 0;
     padding: 0;
->>>>>>> header-billede
+    font-family: cormorant, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #ece8e3;
 }
 
 
@@ -158,14 +165,9 @@ p {
 .hvid-skrift {
     color: #ECE8E3;
 }
-
-<<<<<<< HEAD
-.text-groen-bg{
-/*    max-width: 500px;*/
-=======
+/
 .text-groen-bg {
     max-width: 500px;
->>>>>>> header-billede
 }
 
 .tre-firkanter > figure {
@@ -184,8 +186,7 @@ p {
 
 .groen-illu {
     z-index: 2;
-<<<<<<< HEAD
-=======
+
     /*    height: 300px;*/
     width: 120%
 }
@@ -193,7 +194,7 @@ p {
 .groen-glas {
     /*    max-height: 350px;*/
     width: 120%
->>>>>>> header-billede
+
 }
 
 .beige-bg {
@@ -210,4 +211,74 @@ ol {
 .centrer-prikker {
     list-style-position: inside;
 }
+
+
+footer {
+    background: #abae9e;
+    display: block;
+}
+
+.inner-footer {
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-items-contact:nth-of-type(1) {
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+
+.footer-items-contact:nth-of-type(2) {
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.footer-items-contact:nth-of-type(3) {
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+
+.footer-items-contact p {
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+.footer-items-contact h2 {
+    color: white;
+    font-family: cormorant, sans-serif;
+}
+
+.footer-items-contact p {
+    color: white;
+    font-style: italic;
+    font-family: cormorant, sans-serif;
+}
+
+.inner-footer .newsletter-signup-form {
+    padding-left: 0;
+    padding-top: 15px;
+    font-family: cormorant, sans-serif;
+}
+
+.inner-footer .newsletter-signup-form .fp-newsletter {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.newsletter-signup-form > .btn {
+    margin-left: 0;
+    font-family: cormorant, sans-serif;
+    text-transform: uppercase;
+}
+form{
+    padding-bottom: 10px;
+}
+
 
