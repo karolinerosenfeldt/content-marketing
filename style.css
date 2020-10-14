@@ -26,10 +26,10 @@ h3 {
     letter-spacing: 7px;
 }
 
-<<<<<<< HEAD
 p {
     font-family: cormorant;
-=======
+}
+
 .btn {
     height: 30px;
     width: 150px;
@@ -40,7 +40,6 @@ p {
     margin-bottom: auto;
     border-radius: 0;
     padding: 0;
->>>>>>> header-billede
 }
 
 
@@ -159,13 +158,9 @@ p {
     color: #ECE8E3;
 }
 
-<<<<<<< HEAD
-.text-groen-bg{
-/*    max-width: 500px;*/
-=======
+
 .text-groen-bg {
     max-width: 500px;
->>>>>>> header-billede
 }
 
 .tre-firkanter > figure {
@@ -184,21 +179,15 @@ p {
 
 .groen-illu {
     z-index: 2;
-<<<<<<< HEAD
-=======
-    /*    height: 300px;*/
     width: 120%
 }
 
 .groen-glas {
-    /*    max-height: 350px;*/
     width: 120%
->>>>>>> header-billede
 }
 
 .beige-bg {
     background-color: #ECE8E3;
-/*    height: 500px;*/
 }
 
 ol {
